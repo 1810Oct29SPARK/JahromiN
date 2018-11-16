@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Taking on Tampa</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Poller+One|Ubuntu|VT323" rel="stylesheet">
+<link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+<script src="main.js"></script>
+</head>
+<body>
+    <div class="container">
+    <header>
+        <center>
+            <img src="images/title.png" alt="Page Title" style="width: 500px; height: 80px; padding: 5px">
+            <nav>
+                <a href="index.html" class="button">Home</a>
+                <a href="hiking.html" class="button">Hiking</a>
+                <a href="dining.html" class="button">Dining</a>
+                <a href="shopping.html" class="button">Shopping</a>
+                <a href="events.html" class="button">Events</a>
+                <a href="water.html" class="button">Water</a>
+                <a href="culture.html" class="button">Culture</a>
+            </nav>
+    </center>
+    <div>
+        <marquee behavior=scroll direction="left" scrollamount="11" class="weather">
+            <table style="border-spacing: 190px 0px">
+                <tr>
+                    <th>Fetching Weather Data For The Tampa Bay Region...</th>
+                    <th id="weatherDiv"></th>
+                    <th id="humidityDiv"></th>
+                    <th id="currentDiv"></th>
+                </tr>
+            </table>
+        </marquee>
+    </div>
+    </header>
+    </div>
+    <body>
+        <center>
+                <div>
+                    </div>
+        <div class="content">
+            <fieldset>
+                <legend><h1>Contact Taking on Tampa</h1></legend>
+                <form action="index.html" method="POST">
+                        <!--text is actually the default input type-->
+                        <p>Email:</p>
+                        <input class="roundedCorners" type="email" name="myEmail" placeholder="example@example.com" required="true"/>
+                        <br><br>
+                        <p>Concern:</p>
+                        <input class="roundedCorners" type="text" name="myText" placeholder="Tell us how we can improve."/>
+                        <p>
+                                Your feedback is valuable to us.
+                        </p>
+                        <!--value attribute determines what text will be one the button-->
+                        <input class="roundButton" type="submit" value="Complain"/>
+            </fieldset>
+                </form>
+                    <br>
+                    <br>
+                    <pre>Note: Not an actual complaint form. For demonstration purposes only.</pre>
+                    <br>
+                    <br>
+        </div>
+        </center>
+    <footer class="footer">
+        <center>
+        <div>
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/icon_facebook.png" alt="Facebook Icon" style="height: 60px; width: 60px"></a>
+            <a href="https://www.tumblr.com/" target="_blank"><img src="images/icon_tumblr.png" alt="Facebook Icon" style="height: 60px; width: 60px"></a>
+            <a href="https://twitter.com/" target="_blank"><img src="images/icon_twitter.png" alt="Facebook Icon" style="height: 60px; width: 60px"></a>
+            <a href="https://youtube.com/" target="_blank"><img src="images/icon_youtube.png" alt="Facebook Icon" style="height: 60px; width: 60px"></a>
+            <a href="https://reddit.com/" target="_blank"><img src="images/icon_reddit.png" alt="Facebook Icon" style="height: 60px; width: 60px"></a>
+            <a href="https://instagram.com/" target="_blank"><img src="images/icon_instagram.png" alt="Facebook Icon" style="height: 60px; width: 60px"></a>
+        </div>
+        <p>Copyright 2018 - For training purposes only. <a href="contact.html">Contact Us.</a></p>
+        </center>
+    </footer>  
+</body>
+</html>

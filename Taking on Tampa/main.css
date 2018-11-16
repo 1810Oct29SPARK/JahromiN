@@ -1,0 +1,573 @@
+body {
+    background-image: url("images/wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    color: rgb(6, 32, 63);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    margin: 0px;
+}
+.weather {
+    color: white;
+    font-family: 'Poller One', cursive;
+    text-shadow: 2px 2px rgb(15, 5, 5); 
+    padding: 0px;
+    font-size: 20px;
+    margin: 0px;
+}
+.indexheaderpic {
+    color: white;
+    text-shadow: 2px 2px rgb(15, 5, 5);
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-left: 8%;
+    margin-right: 10%;
+    padding: 20px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: hotpink;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url("images/tampaskyline.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+.container {
+    flex-direction: column;
+    display: flex;
+    min-height: 20vh;
+    flex-grow: 1;
+    min-width: 100%;
+    background: #1e5799;
+    background: -moz-linear-gradient(-45deg, #1e5799 0%, #882ffc 0%, #ff007f 100%);
+    background: -webkit-linear-gradient(-45deg, #1e5799 0%,#882ffc 0%,#ff007f 100%);
+    background: linear-gradient(135deg, #1e5799 0%,#882ffc 0%,#ff007f 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#ff007f',GradientType=1 );
+    top: 0px;
+    width: 100%;
+    margin: 0px;
+}
+.button {
+    padding: 4px;
+    margin: 4px;
+    border-style:solid;
+    border-width: 1px;
+    font-size: 18px;
+    font-family: 'Poller One', cursive;
+    color: rgb(128, 0, 179);
+    /*background-color:rgb(0, 217, 255);*/
+    background: #00e3fc;
+    background: -moz-linear-gradient(top, #00e3fc 0%, #3275fc 98%);
+    background: -webkit-linear-gradient(top, #00e3fc 0%,#3275fc 98%);
+    background: linear-gradient(to bottom, #00e3fc 0%,#3275fc 98%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00e3fc', endColorstr='#3275fc',GradientType=0 );
+    border-radius: 10px;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(184, 250, 3);
+
+}
+.content {
+    background: white;
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    margin-left: 8%;
+    margin-right: 10%;
+    padding: 20px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: hotpink;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    font-family: 'Poller One', cursive;
+    color:rgb(0, 217, 255);
+}
+h2 {
+    font-family: 'Poller One', cursive;
+    color:rgb(248, 248, 248);
+    text-shadow: 2px 2px rgb(15, 5, 5);
+}
+.footer {
+    width: 100vw;
+    padding: 10px;
+    /*background-color:rgb(248, 3, 117);*/
+    background: #1e5799;
+    background: -moz-linear-gradient(-45deg, #1e5799 0%, #882ffc 0%, #ff007f 100%);
+    background: -webkit-linear-gradient(-45deg, #1e5799 0%,#882ffc 0%,#ff007f 100%);
+    background: linear-gradient(135deg, #1e5799 0%,#882ffc 0%,#ff007f 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#ff007f',GradientType=1 );
+    bottom: 0px;
+}
+.roundedCorners {
+    border-radius: 18px;
+    background-color:rgb(157, 255, 0);
+    color: black;
+    padding: 20px; 
+    width: 200px;
+    height: 13px; 
+}
+
+fieldset {
+    border-radius: 10px;
+    border-color: hotpink;
+    border-style: dashed;
+    border-width: 3px;
+}
+.roundButton {
+    border-radius: 18px;
+    background-color:rgb(0, 217, 255);
+    color: black;
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+#tampazoo {
+    color: white;
+    text-shadow: 2px 2px rgb(15, 5, 5);
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-left: 8%;
+    margin-right: 10%;
+    padding: 20px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: hotpink;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url("images/tampazoo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+#tampamosi {
+    color: white;
+    text-shadow: 2px 2px rgb(15, 5, 5);
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-left: 8%;
+    margin-right: 10%;
+    padding: 20px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: hotpink;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url("images/tampamosi.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+#henrybplant {
+    color: white;
+    text-shadow: 2px 2px rgb(15, 5, 5);
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-left: 8%;
+    margin-right: 10%;
+    padding: 20px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: hotpink;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url("images/henrybplant.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+#tampabayhistorycenter {
+    color: white;
+    text-shadow: 2px 2px rgb(15, 5, 5);
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-left: 8%;
+    margin-right: 10%;
+    padding: 20px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: hotpink;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url("images/tampabayhistorycenter.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+#photographicarts {
+    color: white;
+    text-shadow: 2px 2px rgb(15, 5, 5);
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-left: 8%;
+    margin-right: 10%;
+    padding: 20px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: hotpink;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url("images/photographicarts.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 130%;
+}
+#tampafirefighters {
+    color: white;
+    text-shadow: 2px 2px rgb(15, 5, 5);
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-left: 8%;
+    margin-right: 10%;
+    padding: 20px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: hotpink;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url("images/tampafirefighters.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+#tampapolice {
+    color: white;
+    text-shadow: 2px 2px rgb(15, 5, 5);
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-left: 8%;
+    margin-right: 10%;
+    padding: 20px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: hotpink;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url("images/tampapolice.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+#contemporaryart {
+    color: white;
+    text-shadow: 2px 2px rgb(15, 5, 5);
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-left: 8%;
+    margin-right: 10%;
+    padding: 20px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: hotpink;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url("images/contemporaryart.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+#yborcity {
+    color: white;
+    text-shadow: 2px 2px rgb(15, 5, 5);
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-left: 8%;
+    margin-right: 10%;
+    padding: 20px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: hotpink;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url("images/yborcity.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+#ssvictory {
+    color: white;
+    text-shadow: 2px 2px rgb(15, 5, 5);
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-left: 8%;
+    margin-right: 10%;
+    padding: 20px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: hotpink;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url("images/ssvictory.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+#flaquarium {
+    color: white;
+    text-shadow: 2px 2px rgb(15, 5, 5);
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-left: 8%;
+    margin-right: 10%;
+    padding: 20px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: hotpink;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url("images/flaquarium.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+#tma {
+    color: white;
+    text-shadow: 2px 2px rgb(15, 5, 5);
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-left: 8%;
+    margin-right: 10%;
+    padding: 20px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: hotpink;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url("images/tma.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+#clearwaterbeach {
+    color: white;
+    text-shadow: 2px 2px rgb(15, 5, 5);
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-left: 8%;
+    margin-right: 10%;
+    padding: 20px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: hotpink;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url("images/clearwaterbeach.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+#lettucelakepark {
+    color: white;
+    text-shadow: 2px 2px rgb(15, 5, 5);
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-left: 8%;
+    margin-right: 10%;
+    padding: 20px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: hotpink;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url("images/lettucelakepark.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+#violetcury {
+    color: white;
+    text-shadow: 2px 2px rgb(15, 5, 5);
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-left: 8%;
+    margin-right: 10%;
+    padding: 20px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: hotpink;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url("images/violetcury.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+#brookercreek {
+    color: white;
+    text-shadow: 2px 2px rgb(15, 5, 5);
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-left: 8%;
+    margin-right: 10%;
+    padding: 20px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: hotpink;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url("images/brookercreek.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+#bayshoreboulevard {
+    color: white;
+    text-shadow: 2px 2px rgb(15, 5, 5);
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-left: 8%;
+    margin-right: 10%;
+    padding: 20px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: hotpink;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url("images/bayshoreboulevard.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+#tampariverwalk {
+    color: white;
+    text-shadow: 2px 2px rgb(15, 5, 5);
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-left: 8%;
+    margin-right: 10%;
+    padding: 20px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: hotpink;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url("images/tampariverwalk.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+#morrisbridge {
+    color: white;
+    text-shadow: 2px 2px rgb(15, 5, 5);
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-left: 8%;
+    margin-right: 10%;
+    padding: 20px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: hotpink;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url("images/morrisbridge.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+#uppertbt {
+    color: white;
+    text-shadow: 2px 2px rgb(15, 5, 5);
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-left: 8%;
+    margin-right: 10%;
+    padding: 20px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: hotpink;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url("images/uppertbt.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+#eurekasprings {
+    color: white;
+    text-shadow: 2px 2px rgb(15, 5, 5);
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-left: 8%;
+    margin-right: 10%;
+    padding: 20px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: hotpink;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url("images/eurekasprings.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+#interactivemap {
+    text-shadow: 2px 2px rgb(15, 5, 5);
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-left: 8%;
+    margin-right: 10%;
+    padding: 20px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: hotpink;
+    font-family: 'Poller One', cursive;
+    font-size: 30px;
+    color:rgb(0, 217, 255);
+    background-image: url("images/MapButton.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
