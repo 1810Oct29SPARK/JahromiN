@@ -1,0 +1,19 @@
+TAKING ON TAMPA - 20s AND 30s
+
+ABSTRACT: So you're a 20 or 30 something who just moved to Tampa.  Great.  Tampa is a wonderful place to enjoy a variety of activities year round due to its warm client and abundance of warm sunny days year-round.
+However, sifting through massive lists of bars, restauraunts and state parks and reading reviews can be exhausting.  That's where Taking on Tampa comes in.
+TAKING ON TAMPA provides detailed lists of top picks for activities such as shopping, eating, hiking, fishing and jogging throughout the greater Tampa Bay area.
+The lists on the website will be curated, meaning that I, the web master, will do the liberty of research and formulating a "Best-Of" list.
+
+PROPOSED USE CASES:
+
+- Display the current and forecasted weather for the Tampa Bay region.
+- A detaled and curated list of festivals and events geared towards people ages 21-40.
+- A map featuring a curated and detaled list of recommended nature trails and pedestrian friendly areas.
+- A map featuring a curated and detailed list of recommended bars & restauraunts for 20s and 30s somethings. (Based on vibe, crowd, price, and atmosphere.)
+- A map featuring a curated and detailed list of budget friendly shops geared towards 20 and 30 year olds. (Based on metrics such as style, atmosphere, clientele, area, price and vibe)
+- A map featuring a curated and detailed list of museums, galleries, and cultural sites that would be best appreciated young adults.
+- A map featuring a curated and detailed list of popular beaches, kayaking and fishing spots.
+- Users will be able to log in, rate, and post reviews on activities. 
+
+The site will utilize the very powerful Google APIs.
