@@ -76,6 +76,26 @@ body {
     background-attachment: fixed;
     background-size: 100%;
 }
+.shoppingheaderpic {
+    color: white;
+    text-shadow: 2px 2px rgb(15, 5, 5);
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-left: 8%;
+    margin-right: 10%;
+    padding: 20px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: hotpink;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url("images/internationalplaza.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
 .culturexheaderpic {
     color: white;
     text-shadow: 2px 2px rgb(15, 5, 5);
@@ -92,6 +112,66 @@ body {
     border-color: hotpink;
     font-family: 'Ubuntu', sans-serif;
     background-image: url("images/tampaskyline.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+.eventsheaderpic {
+    color: white;
+    text-shadow: 2px 2px rgb(15, 5, 5);
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-left: 8%;
+    margin-right: 10%;
+    padding: 20px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: hotpink;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url("images/tampaevents.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+.waterheaderpic {
+    color: white;
+    text-shadow: 2px 2px rgb(15, 5, 5);
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-left: 8%;
+    margin-right: 10%;
+    padding: 20px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: hotpink;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url("images/water.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+.cultureheaderpic {
+    color: white;
+    text-shadow: 2px 2px rgb(15, 5, 5);
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-left: 8%;
+    margin-right: 10%;
+    padding: 20px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: hotpink;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url("images/tampaculture.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
