@@ -916,3 +916,143 @@ fieldset {
     background-attachment: fixed;
     background-size: 100%;
 }
+#ciccio {
+    color: white;
+    text-shadow: 2px 2px rgb(15, 5, 5);
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-left: 8%;
+    margin-right: 10%;
+    padding: 20px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: hotpink;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url("images/ciccio.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+#craftbeer {
+    color: white;
+    text-shadow: 2px 2px rgb(15, 5, 5);
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-left: 8%;
+    margin-right: 10%;
+    padding: 20px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: hotpink;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url("images/craftbeer.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+#bobacup {
+    color: white;
+    text-shadow: 2px 2px rgb(15, 5, 5);
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-left: 8%;
+    margin-right: 10%;
+    padding: 20px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: hotpink;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url("images/bobacup.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+#universitymall {
+    color: white;
+    text-shadow: 2px 2px rgb(15, 5, 5);
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-left: 8%;
+    margin-right: 10%;
+    padding: 20px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: hotpink;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url("images/universitymall.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+#tampamargarita {
+    color: white;
+    text-shadow: 2px 2px rgb(15, 5, 5);
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-left: 8%;
+    margin-right: 10%;
+    padding: 20px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: hotpink;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url("images/tampamargarita.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+#cuban {
+    color: white;
+    text-shadow: 2px 2px rgb(15, 5, 5);
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-left: 8%;
+    margin-right: 10%;
+    padding: 20px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: hotpink;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url("images/cuban.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+#italia {
+    color: white;
+    text-shadow: 2px 2px rgb(15, 5, 5);
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-left: 8%;
+    margin-right: 10%;
+    padding: 20px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: hotpink;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url("images/italia.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
