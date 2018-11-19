@@ -1,0 +1,12 @@
+body {
+  background-color: rgb(30, 0, 99);
+  background-image: url("images/stars.gif");
+  background-repeat: repeat;
+  overflow:hidden;
+  min-height: 100% 
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+}
