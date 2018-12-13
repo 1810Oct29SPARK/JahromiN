@@ -1,0 +1,7 @@
+Employee ID (PK) | Firstname | Lastname  | Address                     |   City      | State |Zip Code | Title   | Reportsto
+--------------------------------------------------------------------------------------------------------------------------------
+101              | Tony      | Macaroni  | 11 English Saddle Court     | Parkton     |  MD   | 21120   | Manager | NULL
+201              | Betty     | Spaghetti | 310 Dove Creek Way          | Sparks      |  MD   | 21152   | Employee| 101
+301              | Genie     | Tortellini| 635 Fox Hill Road           | Sparks      |  MD   | 21152   | Employee| 101
+401              | Tanya     | Lasagna   | 1205 Fawn Street            | Baltimore   |  MD   | 21202   | Employee| 101
+501              | Nelly     | Vermicelli| 1564 Deer Creek Road        | New Freedom |  PA   | 17349   | Employee| 101

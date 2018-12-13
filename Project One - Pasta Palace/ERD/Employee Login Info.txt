@@ -1,0 +1,7 @@
+Employee ID (PK) | email address          | password
+---------------------------------------------------------
+101              | florence323@gmail.com  | meatball123
+201              | venice4ever@hotmail.com| 556Noodles
+301              | rome885@aol.com        | P4st4333
+401              | genoa1993@yahoo.com    | 3924balogna
+501              | milan39444@gmail.com   | pist4ch1o

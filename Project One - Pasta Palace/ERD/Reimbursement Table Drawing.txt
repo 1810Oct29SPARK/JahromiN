@@ -1,0 +1,7 @@
+Employee ID (PK) | Balance | Needs_Reimbursement | Amount_To_Reimburse
+-----------------------------------------------------------------------
+101              |  453    |      NO             |         0
+201              |  342    |      YES            |         104
+301              |  848    |      NO             |         0
+401              |  923    |      YES            |         50
+501              |  105    |      NO             |         0    
