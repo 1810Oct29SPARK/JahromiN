@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Pasta Palace Reimbursement Request</title>
+<title>Pasta Palace Schedule Creator</title>
 <link rel="stylesheet" type="text/css" href="view.css" media="all">
 <script type="text/javascript" src="view.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,7 +22,7 @@
           
                 <div class="collapse navbar-collapse" id="navbarsExampleDefault">
                   <ul class="navbar-nav mr-auto">
-                    <li>
+                    <li class="nav-item active">
                       <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
@@ -31,11 +31,11 @@
                     <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Employees</a>
                       <div class="dropdown-menu" aria-labelledby="dropdown01">
-                          <a class="dropdown-item" href="reimbursement.html" class="nav-item active">Submit Reimbursement Request</a>
+                          <a class="dropdown-item" href="reimbursement.html">Submit Reimbursement Request</a>
                           <a class="dropdown-item" href="schedule.html">View Schedule</a>
                       </div>
                     </li>
-                      <li class="nav-item dropdown">
+                    <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Manager Portal</a>
                       <div class="dropdown-menu" aria-labelledby="dropdown01">
                           <a class="dropdown-item" href="approvereimbursement.html">Approve Reimbursement Requests</a>
@@ -51,14 +51,14 @@
                 </div>
               </nav>
 	
-	<img id="top" src="top.png" alt="">
+	<img id="top" src="images/top.png" alt="">
 	<div id="form_container">
 	
-		<h1><a>Pasta Palace Reimbursement Request</a></h1>
-		<form id="form_41021" class="appnitro" enctype="multipart/form-data" method="post" action="">
+		<h1><a>Update Employee Information</a></h1>
+		<form id="form_41021" class="appnitro"  method="post" action="">
 					<div class="form_description">
-			<h2>Pasta Palace Reimbursement Portal</h2>
-			<p>For use by Pasta Palace's employees.</p>
+			<h2>Update Employee Schedule</h2>
+			<p>For use by Pasta Palace's manager.</p>
 		</div>						
 			<ul >
 			
@@ -73,10 +73,10 @@
 			<input id="element_3" name="element_3" class="element text medium" type="text" maxlength="255" value=""/> 
 		</div><p class="guidelines" id="guide_3"><small>Please ensure CAPSLOCK is off.</small></p> 
 		</li>		<li class="section_break">
-			<h3>Section Break</h3>
+			<h3>Schedule Editor</h3>
 			<p></p>
 		</li>		<li id="li_11" >
-		<label class="description" for="element_11">Select Your Name </label>
+		<label class="description" for="element_11">Select Employee </label>
 		<div>
 		<select class="element select medium" id="element_11" name="element_11"> 
 			<option value="" selected="selected"></option>
@@ -88,30 +88,41 @@
 
 		</select>
 		</div><p class="guidelines" id="guide_11"><small>Please select an employee</small></p> 
-		</li>		<li id="li_12" >
-		<label class="description" for="element_12">Describe Your Reimbursement Request
-
- </label>
+		</li>		<li id="li_4" >
+		<label class="description" for="element_4">Monday </label>
 		<div>
-			<textarea id="element_12" name="element_12" class="element textarea medium"></textarea> 
+			<input id="element_4" name="element_4" class="element text medium" type="text" maxlength="255" value=""/> 
 		</div> 
-		</li>		<li id="li_13" >
-		<label class="description" for="element_13">Amount to Reimburse </label>
-		<span class="symbol">$</span>
-		<span>
-			<input id="element_13_1" name="element_13_1" class="element text currency" size="10" value="" type="text" /> .		
-			<label for="element_13_1">Dollars</label>
-		</span>
-		<span>
-			<input id="element_13_2" name="element_13_2" class="element text" size="2" maxlength="2" value="" type="text" />
-			<label for="element_13_2">Cents</label>
-		</span>
-		 
-		</li>		<li id="li_14" >
-		<label class="description" for="element_14">Upload Receipt </label>
+		</li>		<li id="li_5" >
+		<label class="description" for="element_5">Tuesday </label>
 		<div>
-			<input id="element_14" name="element_14" class="element file" type="file"/> 
-		</div> <p class="guidelines" id="guide_14"><small>Please ensure the image is well-lit and of high quality.</small></p> 
+			<input id="element_5" name="element_5" class="element text medium" type="text" maxlength="255" value=""/> 
+		</div> 
+		</li>		<li id="li_6" >
+		<label class="description" for="element_6">Wednesday </label>
+		<div>
+			<input id="element_6" name="element_6" class="element text medium" type="text" maxlength="255" value=""/> 
+		</div> 
+		</li>		<li id="li_7" >
+		<label class="description" for="element_7">Thursday </label>
+		<div>
+			<input id="element_7" name="element_7" class="element text medium" type="text" maxlength="255" value=""/> 
+		</div> 
+		</li>		<li id="li_8" >
+		<label class="description" for="element_8">Friday </label>
+		<div>
+			<input id="element_8" name="element_8" class="element text medium" type="text" maxlength="255" value=""/> 
+		</div> 
+		</li>		<li id="li_9" >
+		<label class="description" for="element_9">Saturday </label>
+		<div>
+			<input id="element_9" name="element_9" class="element text medium" type="text" maxlength="255" value=""/> 
+		</div> 
+		</li>		<li id="li_10" >
+		<label class="description" for="element_10">Sunday </label>
+		<div>
+			<input id="element_10" name="element_10" class="element text medium" type="text" maxlength="255" value=""/> 
+		</div> 
 		</li>
 			
 					<li class="buttons">
@@ -124,10 +135,9 @@
 		<div id="footer">
 			<!-- Generated by <a href="http://www.phpform.org">pForm</a>-->
 		</div>
-	</div>
-	<img id="bottom" src="bottom.png" alt="">
-                <footer class="container">
+                  <footer class="container">
                 <p>&copy; Pasta Palace 2017-2018</p>
               </footer>
+	</div>
 	</body>
 </html>
