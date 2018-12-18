@@ -1,7 +1,25 @@
 package com.revature.beans;
 
 public class Employees {
-	   	int EMPLOYEE_ID;
+	   	private static int REPORTSO = 0;
+
+		public Employees(int eMPLOYEE_ID, String fIRSTNAME, String lASTNAME, String aDDRESS, String cITY, String sTATE,
+			int zIPCODE, String tITLE, int rEPORTSTO, int bIRTH_YEAR, int pHONE_NUMBER) {
+		super();
+		EMPLOYEE_ID = eMPLOYEE_ID;
+		FIRSTNAME = fIRSTNAME;
+		LASTNAME = lASTNAME;
+		ADDRESS = aDDRESS;
+		CITY = cITY;
+		STATE = sTATE;
+		ZIPCODE = zIPCODE;
+		TITLE = tITLE;
+		REPORTSTO = rEPORTSTO;
+		BIRTH_YEAR = bIRTH_YEAR;
+		PHONE_NUMBER = pHONE_NUMBER;
+	}
+
+		int EMPLOYEE_ID;
 		String FIRSTNAME;
 		String LASTNAME;
 		String ADDRESS; 
@@ -13,20 +31,6 @@ public class Employees {
 		int BIRTH_YEAR;
 		int PHONE_NUMBER;
 		
-		public Employees(int EMPLOYEE_ID, String FIRSTNAME, String LASTNAME, String ADDRESS, String CITY, String STATE, int ZIPCODE, String TITLE, int REPORTSTO, int BIRTH_YEAR, int PHONE_NUMBER) {
-			super();
-			this.EMPLOYEE_ID = EMPLOYEE_ID;
-			this.FIRSTNAME = FIRSTNAME;
-			this.LASTNAME = LASTNAME;
-			this.ADDRESS = ADDRESS;
-			this.CITY = CITY;
-			this.STATE = STATE;
-			this.ZIPCODE = ZIPCODE;
-			this.TITLE = TITLE;
-			this.REPORTSTO = REPORTSTO;
-			this.BIRTH_YEAR = BIRTH_YEAR;
-			this.PHONE_NUMBER = PHONE_NUMBER;
-}
 
 		public int getEMPLOYEE_ID() {
 			return EMPLOYEE_ID;
@@ -114,5 +118,13 @@ public class Employees {
 
 		public void setPHONE_NUMBER(int pHONE_NUMBER) {
 			PHONE_NUMBER = pHONE_NUMBER;
+		}
+
+		@Override
+		public String toString() {
+			return "Employees [EMPLOYEE_ID=" + EMPLOYEE_ID + ", FIRSTNAME=" + FIRSTNAME + ", LASTNAME=" + LASTNAME
+					+ ", ADDRESS=" + ADDRESS + ", CITY=" + CITY + ", STATE=" + STATE + ", ZIPCODE=" + ZIPCODE
+					+ ", TITLE=" + TITLE + ", REPORTSTO=" + REPORTSTO + ", BIRTH_YEAR=" + BIRTH_YEAR + ", PHONE_NUMBER="
+					+ PHONE_NUMBER + "]";
 		}
 }
