@@ -31,10 +31,10 @@
                       <a class="nav-link" href="Handbook.html">Handbook</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="EmployeeLanding.html">Employee Portal</a>
+                        <a class="nav-link" href="EmployeeLogin.html">Employee Portal</a>
                       </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="ManagerLanding.html">Manager Portal</a>
+                      <li class="nav-item active">
+                          <a class="nav-link" href="ManagerLogin.html">Manager Portal</a>
                         </li>
                 </ul>
               </nav>
@@ -54,7 +54,7 @@
         <ul class="nav nav-tabs">
             <li class="active"><a data-toggle="tab" href="#home">Welcome</a></li>
           <li><a data-toggle="tab" href="#menu1">View & Update Schedule</a></li>
-          <li><a data-toggle="tab" href="#menu2">Modify Schedule</a></li>
+          <li><a data-toggle="tab" href="#menu2">Edit Employees</a></li>
           <li><a data-toggle="tab" href="#menu3">View Reimbursement Requests</a></li>
 
         </ul>
@@ -195,6 +195,7 @@
   <br>
 		<form id="form_41021" class="appnitro"  method="post" action="">
 					<div class="form_description">
+
 		</div>						
 			<h3>Schedule Editor</h3>
 		</li>		<li id="li_11" >
@@ -271,55 +272,103 @@
 
 
           <div id="menu2" class="tab-pane fade">
-              <div id="form_container">
-                  <center><h2>Reimbursement Request</h2></center>
-                  <br>
-                  <br>
-                  <form id="form_41021" class="appnitro" enctype="multipart/form-data" method="post" action="">
-                        <div class="form_description">
+            <center>
+              <form id="form_41021" class="appnitro"  method="post" action="">
+                  <div class="form_description">
+                    <br>
+                    <br>
+                    <br>
                     
-                  </div>						
-                  <label class="description" for="element_12">Describe Your Reimbursement Request
+              <h2>Pasta Palace Employee Information Portal</h2>
+              <p>For Modifying Employees.</p>
+            </div>						
+            
+            </li>		<li id="li_11" >
+            <label class="description" for="element_11">Select Employee </label>
+            <div>
+            <select class="element select medium" id="element_11" name="element_11"> 
+              <option value="" selected="selected"></option>
+        <option value="1" >Tony Macaroni</option>
+        <option value="2" >Betty Spaghetti</option>
+        <option value="3" >Genie Tortellini</option>
+        <option value="4" >Tanya Lasagna</option>
+        <option value="5" >Nelly Vermacelli</option>
+        <option value="6" >(Create New Employee)</option>
+        <br>
+        <h3>Or Create New Employee</h3>
+        <br>
+        
+            </select>
+            </div>
+            </li>			<li id="li_5" >
+            <label class="description" for="element_5">First Name </label>
+            <div>
+              <input id="element_5" name="element_5" class="element text medium" type="text" maxlength="255" value=""/> 
+            </div> 
+            </li>		<li id="li_6" >
+            <label class="description" for="element_6">Last Name </label>
+            <div>
+              <input id="element_6" name="element_6" class="element text medium" type="text" maxlength="255" value=""/> 
+            </div> 
+            </li>		<li id="li_7" >
+            <label class="description" for="element_7">Email Address </label>
+            <div>
+              <input id="element_7" name="element_7" class="element text medium" type="text" maxlength="255" value=""/> 
+            </div> 
+            </li>		<li id="li_8" >
+            <label class="description" for="element_8">Password </label>
+            <div>
+              <input id="element_8" name="element_8" class="element text medium" type="password" maxlength="255" value=""/> 
+            </div> 
+            </li>		<li id="li_9" >
+            <label class="description" for="element_9">Address </label>
+            <div>
+              <input id="element_9" name="element_9" class="element text medium" type="text" maxlength="255" value=""/> 
+            </div> 
+            </li>		<li id="li_10" >
+            <label class="description" for="element_10">City </label>
+            <div>
+              <input id="element_10" name="element_10" class="element text medium" type="text" maxlength="255" value=""/> 
+            </div> 
+            </li>       <li id="li_11" >
+            <label class="description" for="element_11">State </label>
+            <div>
+              <input id="element_11" name="element_11" class="element text medium" type="text" maxlength="255" value=""/> 
+            </div> 
+            </li>        <li id="li_12" >
+            <label class="description" for="element_12">Zip Code </label>
+            <div>
+              <input id="element_12" name="element_12" class="element text medium" type="text" maxlength="255" value=""/> 
+            </div> 
+            </li>       <li id="li_13" >
+            <label class="description" for="element_13">Birth Year</label>
+            <div>
+              <input id="element_13" name="element_13" class="element text medium" type="text" maxlength="255" value=""/> 
+            </div> 
+            </li>       <li id="li_14" >
+            <label class="description" for="element_14">Title </label>
+            <div>
+              <input id="element_14" name="element_14" class="element text medium" type="text" maxlength="255" value=""/> 
+            </div>       
+            </li>       <li id="li_15" >
+            <label class="description" for="element_15">Reports To </label>
+            <div>
+              <input id="element_15" name="element_15" class="element text medium" type="text" maxlength="255" value=""/> 
+            </div>      <li id="li_16" >
+            <label class="description" for="element_16">Phone Number </label>
+            <div>
+              <input id="element_16" name="element_16" class="element text medium" type="text" maxlength="255" value=""/> 
+            </div> 
               
-               </label>
-                  <div>
-                    <textarea id="element_12" name="element_12" class="element textarea medium"></textarea> 
-                  </div> 
-                  </li>		<li id="li_13" >
-                  <label class="description" for="element_13">Amount to Reimburse </label>
-                  <span class="symbol">$</span>
-                  <span>
-                    <input id="element_13_1" name="element_13_1" class="element text currency" size="10" value="" type="text" /> .		
-                    <label for="element_13_1">Dollars</label>
-                  </span>
-                  <span>
-                    <input id="element_13_2" name="element_13_2" class="element text" size="2" maxlength="2" value="" type="text" />
-                    <label for="element_13_2">Cents</label>
-                  </span>
-                   
-                  </li>		<li id="li_14" >
-                  <label class="description" for="element_14">Upload Receipt </label>
-                  <div>
-                    <input id="element_14" name="element_14" class="element file" type="file"/> 
-                  </div> <p class="guidelines" id="guide_14"><small>Please ensure the image is well-lit and of high quality.</small></p> 
-                  </li>
-                    
-                        <li class="buttons">
-                        <input type="hidden" name="form_id" value="41021" />
-                        
-                          <strong>Date: </strong>
-                          <br>
-                          <input type="date" name="Reimbursedate">
-                          <br>
-                          <br>
-                        
-                        
-                      <input id="saveForm" class="button_text" type="submit" name="submit" value="Submit" />
-                  </li>
-                    </ul>
-                  </form>	
-              
-                </div>
+                  <li class="buttons">
+                  <input type="hidden" name="form_id" value="41021" />
+                  
+                <input id="saveForm" class="button_text" type="submit" name="submit" value="Submit" />
+                <input id="saveForm" class="button_text" type="submit" name="Delete" value="Delete" />
+            </li>
+              </ul>
+            </form>
+          </center>
           </div>
           
 
@@ -348,6 +397,8 @@
                     <h5 class="card-title">06/06/2016</h5>
                     <h6 class="card-subtitle mb-2 text-muted">$24.20</h6>
                     <p class="card-text">Purchased fresh fruits and vegetables for the Sunday Brunch.</p>
+                    <input id="saveForm" class="button_text" type="submit" name="approve" value="Approve" />
+                    <input id="saveForm" class="button_text" type="submit" name="deny" value="Deny" />
                 </div>
               </div>
           </div>
