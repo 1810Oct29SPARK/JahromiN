@@ -1,32 +1,13 @@
 package com.revature.main;
 
 import java.io.IOException;
-package com.revature.main;
-
-import java.io.IOException;
-import java.sql.Connection;
 import java.sql.SQLException;
-
-import com.revature.dao.EmployeesDAO;
-import com.revature.dao.EmployeesDAOImpl;
-import com.revature.util.ConnectionUtil;
-import java.sql.Connection;
-import java.sql.SQLException;
-import java.util.List;
 
 public class ProcessSchedule {
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) throws SQLException, IOException {
 		
-		Connection conn = null;
-		
-		try {
-			conn = ConnectionUtil.getConnection("connection.properties");
-			System.out.println("Connected");
-		}
-		catch (SQLException | IOException e) {
-			e.printStackTrace();
-		}
+		System.out.println("Connected");
 		
 		
 		// TODO Auto-generated method stub

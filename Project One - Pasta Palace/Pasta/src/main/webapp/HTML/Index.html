@@ -1,4 +1,4 @@
-<!DOCTYPE <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -11,6 +11,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="carousel.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     <link rel="icon" href="favicon.ico">
     <style>
 h1 {
@@ -23,40 +24,21 @@ h5 {
 </head>
 <body>
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-success">
-                <a class="navbar-brand" href="#">Pasta Palace Employee Portal</a>
+                <a class="navbar-brand" href="index.html">Pasta Palace Employee Portal</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
-          
-                <div class="collapse navbar-collapse" id="navbarsExampleDefault">
                   <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                    </li>
                     <li class="nav-item">
                       <a class="nav-link" href="Handbook.html">Handbook</a>
                     </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Employees</a>
-                      <div class="dropdown-menu" aria-labelledby="dropdown01">
-                          <a class="dropdown-item" href="reimbursement.html">Submit Reimbursement Request</a>
-                          <a class="dropdown-item" href="schedule.html">View Schedule</a>
-                      </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Manager Portal</a>
-                      <div class="dropdown-menu" aria-labelledby="dropdown01">
-                          <a class="dropdown-item" href="approvereimbursement.html">Approve Reimbursement Requests</a>
-                          <a class="dropdown-item" href="modifyschedule.html">Modify Employee Schedule</a>
-                          <a class="dropdown-item" href="modifyinfo.html">Update Employee Information</a>
-                      </div>
-                    </li>
-                  </ul>
-                  <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                  </form>
-                </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="EmployeeLogin.html">Employee Portal</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="ManagerLogin.html">Manager Portal</a>
+                        </li>
+                </ul>
               </nav>
           
               <main role="main">
@@ -90,7 +72,7 @@ h5 {
               <center>
                 <h1>View Schedule</h1>
                 <h5>Schedules for the following week are posted every Friday.</h5>
-                <p><a class="btn btn-lg btn-danger" href="schedule.html" role="button">View Schedule</a></p>
+                <p><a class="btn btn-lg btn-danger" href="EmployeeLogin.html" role="button">View Schedule</a></p>
               </center>
               </div>
             </div>
@@ -102,7 +84,7 @@ h5 {
               <center>
                 <h1>Submit Reimbursement Request</h1>
                 <h5>Receive a refund for any incurred pasta related expenses.</h5>
-                <p><a class="btn btn-lg btn-danger" href="reimbursement.html" role="button">Submit Reimbursement Request</a></p>
+                <p><a class="btn btn-lg btn-danger" href="EmployeeLogin.html" role="button">Submit Reimbursement Request</a></p>
               </center>
               </div>
             </div>
@@ -132,13 +114,13 @@ h5 {
                     <img src="images/reimburse.png" alt="Generic placeholder image" width="140" height="140">
                       <h4>Reimbursement Request</h4>
                       <p>In the event you may incur refundable pasta related expenses, may submit a reimbursement request at our Reimbursement Portal. </p>
-                      <p><a class="btn btn-success" href="Login.html" role="button">Submit Request &raquo;</a></p>
+                      <p><a class="btn btn-success" href="EmployeeLogin.html" role="button">Submit Request &raquo;</a></p>
                     </div>
                     <div class="col-md-4">
                     <img src="images/schedule.png" alt="Generic placeholder image" width="140" height="140">
                       <h4>View Schedule</h4>
                       <p>Log in to view your schedule for the upcoming work week. The following week's schedule is posted every Friday.</p>
-                      <p><a class="btn btn-success" href="Login.html" role="button">View Schedule &raquo;</a></p>
+                      <p><a class="btn btn-success" href="EmployeeLogin.html" role="button">View Schedule &raquo;</a></p>
                     </div>
                     </center>
                   </div>
@@ -148,12 +130,8 @@ h5 {
                 </div> <!-- /container -->
           
               </main>
-          
-              <footer class="container">
-                <p>&copy; Pasta Palace 2017-2018</p>
-              </footer>
               <!-- Footer -->
-<footer class="page-footer font-small special-color-light pt-4">
+<footer class="page-footer font-small special-color-light pt-6" style="font-size: 28px"> 
   <!-- Footer Elements -->
   <div class="container">
 
@@ -164,6 +142,16 @@ h5 {
         <!-- Copyright -->
     <!-- Social buttons -->
     <ul class="list-unstyled list-inline text-center">
+        <li class="list-inline-item">
+            <a class="btn-floating btn-fb mx-1">
+                <i class="fab fa-fort-awesome"></i>
+            </a>
+          </li>
+            <li class="list-inline-item">
+                <a class="btn-floating btn-fb mx-1">
+                    <i class="fab fa-jenkins"></i>
+                </a>
+              </li>
       <li class="list-inline-item">
         <a class="btn-floating btn-fb mx-1">
               <i class="fab fa-aws fa-lg"></i>
@@ -181,7 +169,7 @@ h5 {
       </li>
       <li class="list-inline-item">
         <a class="btn-floating btn-li mx-1">
-              <i class="fab fa-github-alt fa-lg"></i>
+            <i class="fab fa-github"></i>
         </a>
       </li>
       <li class="list-inline-item">
@@ -194,12 +182,22 @@ h5 {
                       <i class="fab fa-html5 fa-lg"></i>
               </a>
             </li>
+            <li class="list-inline-item">
+                <a class="btn-floating btn-dribbble mx-1">
+                    <i class="fab fa-node"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                  <a class="btn-floating btn-dribbble mx-1">
+                      <i class="fab fa-angular"></i>
+                  </a>
+                </li>
     </ul>
     <!-- Social buttons -->
 
   </div>
   <!-- Footer Elements -->
-
+    <center><p style="font-size: 18px">&copy; Pasta Palace 2017-2018</p></center>
 </footer>
 <!-- Footer -->
 </div>

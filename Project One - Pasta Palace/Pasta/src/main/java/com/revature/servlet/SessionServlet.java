@@ -27,11 +27,11 @@ public class SessionServlet extends HttpServlet {
 		HttpSession session = request.getSession(false);
 		if (session != null) {
 			try {
-				int id = (int) session.getAttribute("id");
-				String firstname = session.getAttribute("firstName").toString();
-				String lastname = session.getAttribute("lastName").toString();
-				String email = session.getAttribute("email").toString();
-				Employee e = new Employee(id, firstname, lastname, email, new Role(1, "Employee"), null, null);
+				int id = (int) session.getAttribute("EMPLOYEE_ID");
+				String firstname = session.getAttribute("FIRSTNAME").toString();
+				String lastname = session.getAttribute("LASTNAME").toString();
+				String email = session.getAttribute("EMAIL").toString();
+				Employees e = new Employee(id, firstname, lastname, email, new Role(1, "Employee"), null, null);
 				response.getWriter().write(new ObjectMapper().writeValueAsString(e));
 
 			} catch (Exception e) {

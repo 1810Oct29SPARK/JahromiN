@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Manager Landing</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrapold.min.css">
+    <link rel="stylesheet" type="text/css" href="view.css" media="all">
+    <link rel="stylesheet" href="carousel.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <div style="top:0px">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-success" style="top:0px; left:0px; right:0px; position:fixed">
+                <a class="navbar-brand" href="index.html">Pasta Palace Employee Portal</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="Handbook.html">Handbook</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="EmployeeLogin.html">Employee Portal</a>
+                      </li>
+                      <li class="nav-item active">
+                          <a class="nav-link" href="ManagerLogin.html">Manager Portal</a>
+                        </li>
+                </ul>
+              </nav>
+            </div>
+          
+          
+
+      <div class="container">
+        <br>
+        <br>
+        <center><h2>Welcome Back, Tony Macaroni</h2></center>
+        <center><h4><em>This isn't a pasta hut or a house of pasta.  Nah fam, this is a PASTA PALACE.</em></h4></center>
+        <center><h5> - Tony Macaroni, Pasta Palace Founder & CEO</h5></center>
+      
+        <center>
+        <div>
+        <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#home">Welcome</a></li>
+          <li><a data-toggle="tab" href="#menu1">View & Update Schedule</a></li>
+          <li><a data-toggle="tab" href="#menu2">Edit Employees</a></li>
+          <li><a data-toggle="tab" href="#menu3">View Reimbursement Requests</a></li>
+
+        </ul>
+      </div>
+    </center>
+      
+        <div class="tab-content">
+          <div id="home" class="tab-pane fade in active">
+            <center><h2>My Information</h2></center>
+            <center>
+            <br>
+            <br>
+            <p><Strong>First Name:</Strong><p>Tony</p></p>
+            <br>
+            <br>
+            <p><Strong>Last Name:</Strong><p>Macaroni</p></p>
+            <br>
+            <br>
+            <p><Strong>Address:</Strong><p>1205 Fawn Street</p></p>
+            <br>
+            <br>
+            <p><Strong>City:</Strong><p>Baltimore</p></p>
+            <br>
+            <br>
+            <p><Strong>State:</Strong><p>MD</p></p>
+            <br>
+            <br>
+            <p><Strong>Zipcode:</Strong><p>21202</p></p>
+            <br>
+            <br>
+            <p><Strong>Title:</Strong><p>Employee</p></p>
+            <br>
+            <br>
+            <p><Strong>Supervisor:</Strong><p>Tony Macaroni</p></p>
+            <br>
+            <br>
+            <p><Strong>Birth Year:</Strong><p>1978</p></p>
+            <br>
+            <br>
+            <p><Strong>Phone Number:</Strong><p>(410) 323-8366</p></p>
+            <br>
+            <form action="ModifyInfo.html" method="get">
+              <input type="submit" value="Update My Information" 
+                   name="Update My Information" id="frm1_submit" />
+          </form>
+            </center>
+          </div>
+          
+
+
+
+
+          
+          <div id="menu1" class="tab-pane fade">
+              <center><h2>Pasta Palace Employee Schedule</h2></center>
+              <br>
+              <br>
+            
+
+
+<div>
+   
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#bbb;margin:0px auto;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#bbb;color:#594F4F;background-color:#E0FFEB;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#bbb;color:#493F3F;background-color:#9DE0AD;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+.tg .tg-sjuo{background-color:#C2FFD6;text-align:left;vertical-align:top}
+.tg-sort-header::-moz-selection{background:0 0}.tg-sort-header::selection{background:0 0}.tg-sort-header{cursor:pointer}.tg-sort-header:after{content:'';float:right;margin-top:7px;border-width:0 5px 5px;border-style:solid;border-color:#404040 transparent;visibility:hidden}.tg-sort-header:hover:after{visibility:visible}.tg-sort-asc:after,.tg-sort-asc:hover:after,.tg-sort-desc:after{visibility:visible;opacity:.4}.tg-sort-desc:after{border-bottom:none;border-width:5px 5px 0}@media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;margin: auto 0px;}}</style>
+<div class="tg-wrap"><table id="tg-wDppa" class="tg">
+  <tr>
+    <th class="tg-0lax"></th>
+    <th class="tg-0lax">Monday</th>
+    <th class="tg-0lax">Tuesday</th>
+    <th class="tg-0lax">Wednesday</th>
+    <th class="tg-0lax">Thursday</th>
+    <th class="tg-0lax">Friday</th>
+    <th class="tg-0lax">Saturday</th>
+    <th class="tg-0lax">Sunday</th>
+  </tr>
+  <tr>
+    <td class="tg-sjuo">Tony Macaroni</td>
+    <td class="tg-sjuo">8:30 - 17:30</td>
+    <td class="tg-sjuo">8:30 - 17:30</td>
+    <td class="tg-sjuo">8:30 - 17:30</td>
+    <td class="tg-sjuo">8:30 - 17:30</td>
+    <td class="tg-sjuo">8:30 - 17:30</td>
+    <td class="tg-sjuo"></td>
+    <td class="tg-sjuo"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Betty Spaghetti</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">11:00 - 21:30</td>
+    <td class="tg-0lax">11:00 - 21:30</td>
+    <td class="tg-0lax">11:00 - 21:30</td>
+  </tr>
+  <tr>
+    <td class="tg-sjuo">Genie Tortellini</td>
+    <td class="tg-sjuo">8:00 - 15:00</td>
+    <td class="tg-sjuo">8:00 - 15:00</td>
+    <td class="tg-sjuo">8:00 - 15:00</td>
+    <td class="tg-sjuo">8:00 - 15:00</td>
+    <td class="tg-sjuo">8:00 - 11:00</td>
+    <td class="tg-sjuo"></td>
+    <td class="tg-sjuo"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Tanya Lasagna</td>
+    <td class="tg-0lax">15:00 - 21:30</td>
+    <td class="tg-0lax">15:00 - 21:30</td>
+    <td class="tg-0lax">15:00 - 21:30</td>
+    <td class="tg-0lax">15:00 - 21:30</td>
+    <td class="tg-0lax">15:00 - 21:30</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-sjuo">Nelly Vermicelli</td>
+    <td class="tg-sjuo"></td>
+    <td class="tg-sjuo"></td>
+    <td class="tg-sjuo"></td>
+    <td class="tg-sjuo"></td>
+    <td class="tg-sjuo"></td>
+    <td class="tg-sjuo">8:00 - 11:00</td>
+    <td class="tg-sjuo">8:00 - 11:00</td>
+  </tr>
+</table></div>
+<script charset="utf-8">var TGSort=window.TGSort||function(n){"use strict";function r(n){return n.length}function t(n,t){if(n)for(var e=0,a=r(n);a>e;++e)t(n[e],e)}function e(n){return n.split("").reverse().join("")}function a(n){var e=n[0];return t(n,function(n){for(;!n.startsWith(e);)e=e.substring(0,r(e)-1)}),r(e)}function o(n,r){return-1!=n.map(r).indexOf(!0)}function u(n,r){return function(t){var e="";return t.replace(n,function(n,t,a){return e=t.replace(r,"")+"."+(a||"").substring(1)}),l(e)}}function i(n){var t=l(n);return!isNaN(t)&&r(""+t)+1>=r(n)?t:NaN}function s(n){var e=[];return t([i,m,g],function(t){var a;r(e)||o(a=n.map(t),isNaN)||(e=a)}),e}function c(n){var t=s(n);if(!r(t)){var o=a(n),u=a(n.map(e)),i=n.map(function(n){return n.substring(o,r(n)-u)});t=s(i)}return t}function f(n){var r=n.map(Date.parse);return o(r,isNaN)?[]:r}function v(n,r){r(n),t(n.childNodes,function(n){v(n,r)})}function d(n){var r,t=[],e=[];return v(n,function(n){var a=n.nodeName;"TR"==a?(r=[],t.push(r),e.push(n)):("TD"==a||"TH"==a)&&r.push(n)}),[t,e]}function p(n){if("TABLE"==n.nodeName){for(var e=d(n),a=e[0],o=e[1],u=r(a),i=u>1&&r(a[0])<r(a[1])?1:0,s=i+1,v=a[i],p=r(v),l=[],m=[],g=[],h=s;u>h;++h){for(var N=0;p>N;++N){r(m)<p&&m.push([]);var T=a[h][N],C=T.textContent||T.innerText||"";m[N].push(C.trim())}g.push(h-s)}var L="tg-sort-asc",E="tg-sort-desc",b=function(){for(var n=0;p>n;++n){var r=v[n].classList;r.remove(L),r.remove(E),l[n]=0}};t(v,function(n,t){l[t]=0;var e=n.classList;e.add("tg-sort-header"),n.addEventListener("click",function(){function n(n,r){var t=d[n],e=d[r];return t>e?a:e>t?-a:a*(n-r)}var a=l[t];b(),a=1==a?-1:+!a,a&&e.add(a>0?L:E),l[t]=a;var i=m[t],v=function(n,r){return a*i[n].localeCompare(i[r])||a*(n-r)},d=c(i);(r(d)||r(d=f(i)))&&(v=n);var p=g.slice();p.sort(v);for(var h=null,N=s;u>N;++N)h=o[N].parentNode,h.removeChild(o[N]);for(var N=s;u>N;++N)h.appendChild(o[s+p[N-s]])})})}}var l=parseFloat,m=u(/^(?:\s*)([+-]?(?:\d+)(?:,\d{3})*)(\.\d*)?$/g,/,/g),g=u(/^(?:\s*)([+-]?(?:\d+)(?:\.\d{3})*)(,\d*)?$/g,/\./g);n.addEventListener("DOMContentLoaded",function(){for(var t=n.getElementsByClassName("tg"),e=0;e<r(t);++e)try{p(t[e])}catch(a){}})}(document);</script>
+</div>
+
+<center>
+  <br>
+  <br>
+  <br>
+		<form id="form_41021" class="appnitro"  method="post" action="">
+					<div class="form_description">
+
+		</div>						
+			<h3>Schedule Editor</h3>
+		</li>		<li id="li_11" >
+		<label class="description" for="element_11">Select Employee </label>
+		<div>
+		<select class="element select medium" id="element_11" name="element_11"> 
+			<option value="" selected="selected"></option>
+<option value="1" >Tony Macaroni</option>
+<option value="2" >Betty Spaghetti</option>
+<option value="3" >Genie Tortellini</option>
+<option value="4" >Tanya Lasagna</option>
+<option value="5" >Nelly Vermacelli</option>
+
+		</select>
+		</div><p class="guidelines" id="guide_11"><small>Please select an employee</small></p> 
+		</li>		<li id="li_4" >
+		<label class="description" for="element_4">Monday </label>
+		<div>
+			<input id="element_4" name="element_4" class="element text medium" type="text" maxlength="255" value=""/> 
+		</div> 
+		</li>		<li id="li_5" >
+		<label class="description" for="element_5">Tuesday </label>
+		<div>
+			<input id="element_5" name="element_5" class="element text medium" type="text" maxlength="255" value=""/> 
+		</div> 
+		</li>		<li id="li_6" >
+		<label class="description" for="element_6">Wednesday </label>
+		<div>
+			<input id="element_6" name="element_6" class="element text medium" type="text" maxlength="255" value=""/> 
+		</div> 
+		</li>		<li id="li_7" >
+		<label class="description" for="element_7">Thursday </label>
+		<div>
+			<input id="element_7" name="element_7" class="element text medium" type="text" maxlength="255" value=""/> 
+		</div> 
+		</li>		<li id="li_8" >
+		<label class="description" for="element_8">Friday </label>
+		<div>
+			<input id="element_8" name="element_8" class="element text medium" type="text" maxlength="255" value=""/> 
+		</div> 
+		</li>		<li id="li_9" >
+		<label class="description" for="element_9">Saturday </label>
+		<div>
+			<input id="element_9" name="element_9" class="element text medium" type="text" maxlength="255" value=""/> 
+		</div> 
+		</li>		<li id="li_10" >
+		<label class="description" for="element_10">Sunday </label>
+		<div>
+			<input id="element_10" name="element_10" class="element text medium" type="text" maxlength="255" value=""/> 
+		</div> 
+		</li>
+			
+					<li class="buttons">
+			    <input type="hidden" name="form_id" value="41021" />
+			    
+				<input id="saveForm" class="button_text" type="submit" name="submit" value="Submit" />
+		</li>
+			</ul>
+    </form>
+  </center>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <div id="menu2" class="tab-pane fade">
+            <center>
+              <form id="form_41021" class="appnitro"  method="post" action="">
+                  <div class="form_description">
+                    <br>
+                    <br>
+                    <br>
+                    
+              <h2>Pasta Palace Employee Information Portal</h2>
+              <p>For Modifying Employees.</p>
+            </div>						
+            
+            </li>		<li id="li_11" >
+            <label class="description" for="element_11">Select Employee </label>
+            <div>
+            <select class="element select medium" id="element_11" name="element_11"> 
+              <option value="" selected="selected"></option>
+        <option value="1" >Tony Macaroni</option>
+        <option value="2" >Betty Spaghetti</option>
+        <option value="3" >Genie Tortellini</option>
+        <option value="4" >Tanya Lasagna</option>
+        <option value="5" >Nelly Vermacelli</option>
+        <option value="6" >(Create New Employee)</option>
+        <br>
+        <h3>Or Create New Employee</h3>
+        <br>
+        
+            </select>
+            </div>
+            </li>			<li id="li_5" >
+            <label class="description" for="element_5">First Name </label>
+            <div>
+              <input id="element_5" name="element_5" class="element text medium" type="text" maxlength="255" value=""/> 
+            </div> 
+            </li>		<li id="li_6" >
+            <label class="description" for="element_6">Last Name </label>
+            <div>
+              <input id="element_6" name="element_6" class="element text medium" type="text" maxlength="255" value=""/> 
+            </div> 
+            </li>		<li id="li_7" >
+            <label class="description" for="element_7">Email Address </label>
+            <div>
+              <input id="element_7" name="element_7" class="element text medium" type="text" maxlength="255" value=""/> 
+            </div> 
+            </li>		<li id="li_8" >
+            <label class="description" for="element_8">Password </label>
+            <div>
+              <input id="element_8" name="element_8" class="element text medium" type="password" maxlength="255" value=""/> 
+            </div> 
+            </li>		<li id="li_9" >
+            <label class="description" for="element_9">Address </label>
+            <div>
+              <input id="element_9" name="element_9" class="element text medium" type="text" maxlength="255" value=""/> 
+            </div> 
+            </li>		<li id="li_10" >
+            <label class="description" for="element_10">City </label>
+            <div>
+              <input id="element_10" name="element_10" class="element text medium" type="text" maxlength="255" value=""/> 
+            </div> 
+            </li>       <li id="li_11" >
+            <label class="description" for="element_11">State </label>
+            <div>
+              <input id="element_11" name="element_11" class="element text medium" type="text" maxlength="255" value=""/> 
+            </div> 
+            </li>        <li id="li_12" >
+            <label class="description" for="element_12">Zip Code </label>
+            <div>
+              <input id="element_12" name="element_12" class="element text medium" type="text" maxlength="255" value=""/> 
+            </div> 
+            </li>       <li id="li_13" >
+            <label class="description" for="element_13">Birth Year</label>
+            <div>
+              <input id="element_13" name="element_13" class="element text medium" type="text" maxlength="255" value=""/> 
+            </div> 
+            </li>       <li id="li_14" >
+            <label class="description" for="element_14">Title </label>
+            <div>
+              <input id="element_14" name="element_14" class="element text medium" type="text" maxlength="255" value=""/> 
+            </div>       
+            </li>       <li id="li_15" >
+            <label class="description" for="element_15">Reports To </label>
+            <div>
+              <input id="element_15" name="element_15" class="element text medium" type="text" maxlength="255" value=""/> 
+            </div>      <li id="li_16" >
+            <label class="description" for="element_16">Phone Number </label>
+            <div>
+              <input id="element_16" name="element_16" class="element text medium" type="text" maxlength="255" value=""/> 
+            </div> 
+              
+                  <li class="buttons">
+                  <input type="hidden" name="form_id" value="41021" />
+                  
+                <input id="saveForm" class="button_text" type="submit" name="submit" value="Submit" />
+                <input id="saveForm" class="button_text" type="submit" name="Delete" value="Delete" />
+            </li>
+              </ul>
+            </form>
+          </center>
+          </div>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <div id="menu3" class="tab-pane fade">
+            <center><h2>View Reimbursement Requests</h2></center>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="images/Receipt1.jpeg" alt="Card image cap">
+                <div class="card-body">
+                    <h3 style="color:red">PENDING</h3>
+                    <h5 class="card-title">06/06/2016</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">$24.20</h6>
+                    <p class="card-text">Purchased fresh fruits and vegetables for the Sunday Brunch.</p>
+                    <input id="saveForm" class="button_text" type="submit" name="approve" value="Approve" />
+                    <input id="saveForm" class="button_text" type="submit" name="deny" value="Deny" />
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+          
+<footer class="page-footer font-small special-color-light pt-6" style="font-size: 28px"> 
+  <hr>
+  <!-- Footer Elements -->
+  <div class="container">
+
+              <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">
+          <div class="footer-copyright text-center py-3"> 
+        </div>
+        <!-- Copyright -->
+    <!-- Social buttons -->
+    <ul class="list-unstyled list-inline text-center">
+        <li class="list-inline-item">
+            <a class="btn-floating btn-fb mx-1">
+                <i class="fab fa-fort-awesome"></i>
+            </a>
+          </li>
+            <li class="list-inline-item">
+                <a class="btn-floating btn-fb mx-1">
+                    <i class="fab fa-jenkins"></i>
+                </a>
+              </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-fb mx-1">
+              <i class="fab fa-aws fa-lg"></i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-tw mx-1">
+              <i class="fab fa-slack fa-lg"></i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-gplus mx-1">
+              <i class="fab fa-js-square fa-lg"></i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-li mx-1">
+            <i class="fab fa-github"></i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-dribbble mx-1">
+              <i class="fab fa-java fa-lg"></i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+              <a class="btn-floating btn-dribbble mx-1">
+                      <i class="fab fa-html5 fa-lg"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+                <a class="btn-floating btn-dribbble mx-1">
+                    <i class="fab fa-node"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                  <a class="btn-floating btn-dribbble mx-1">
+                      <i class="fab fa-angular"></i>
+                  </a>
+                </li>
+    </ul>
+    <!-- Social buttons -->
+
+  </div>
+  <!-- Footer Elements -->
+    <center><p style="font-size: 18px">&copy; Pasta Palace 2017-2018</p></center>
+</footer>
+<!-- Footer -->
+</div>
+
+</body>
+</html>

@@ -13,8 +13,8 @@ import com.revature.beans.Credentials;
 import com.revature.beans.Employee;
 import com.revature.service.AuthenticationService;
 
-@WebServlet("/login")
-public class LoginServlet extends HttpServlet {
+@WebServlet("/EmployeeLogin")
+public class ManagerLoginServlet extends HttpServlet {
 
 	/**
 	 * 
@@ -24,14 +24,12 @@ public class LoginServlet extends HttpServlet {
 	AuthenticationService authService = new AuthenticationService();
 
 	//return login page for get request
-	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		req.getRequestDispatcher("login.html").forward(req, resp);
+		req.getRequestDispatcher("EmployeeLogin.html"),("ManagerLogin.html").forward(req, resp);
 	}
 	
 	//handle POST request from form on login page
 	//(or anywhere else)
-	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		System.out.println("handling request...");
 		
@@ -40,18 +38,18 @@ public class LoginServlet extends HttpServlet {
 		HttpSession session = req.getSession();
 		resp.setContentType("text/html");
 		//grab params from request
-		Credentials cred = new Credentials(req.getParameter("username"), req.getParameter("password"));
+		Credentials cred = new Credentials(req.getParameter("EMAIL"), req.getParameter("PASSWORD"));
 		Employee u = (authService.isValidEmployee(cred));
 		if (u != null) {
-			session.setAttribute("userName", u.getUserName());
-			session.setAttribute("firstName", u.getFirstName());
-			session.setAttribute("lastName", u.getLastName());
-			session.setAttribute("id", u.getId());
-			session.setAttribute("email", u.getEmail());
+			session.setAttribute("FIRSTNAME", u.getUserName());
+			session.setAttribute("LASTNAME", u.getFirstName());
+			session.setAttribute("CITY", u.getLastName());
+			session.setAttribute("EMPLOYEE_ID", u.getId());
+			session.setAttribute("EMAIL", u.getEmail());
 			resp.sendRedirect("profile");
 			
 		} else {
-			resp.sendRedirect("login");
+			resp.sendRedirect("EMPLOYEE");
 		}
 
 	}

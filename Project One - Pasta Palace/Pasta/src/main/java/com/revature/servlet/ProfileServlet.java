@@ -12,17 +12,11 @@ import javax.servlet.http.HttpSession;
 @WebServlet("/profile")
 public class ProfileServlet extends HttpServlet {
 
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = 8343002811379165553L;
-
-	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		//check whether a session exists for the incoming request
 		HttpSession session = req.getSession(false);
 		if (session != null && session.getAttribute("username") != null) {
-			req.getRequestDispatcher("profile.html").forward(req, resp);
+			((Object) req.getRequestDispatcher("profile.html")).forward(req, resp);
 		} else {
 			resp.sendRedirect("login");
 		}

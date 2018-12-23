@@ -27,7 +27,7 @@ public class ReimbursementDAOImpl implements ReimbursementDAO {
 			ResultSet rs = stmt.executeQuery(sql);
 			while (rs.next()) {
 				int reimbursementId = rs.getInt("REIMBURSEMENTID");
-				int employeeId = rs.getInt("EMPLOYEEID");
+				int employeeId = rs.getInt("EMPLOYEE_ID");
 				String type = rs.getString("TYPE");
 				String description = rs.getString("DESCRIPTION");
 				Blob image = rs.getBlob("IMAGE");

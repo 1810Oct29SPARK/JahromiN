@@ -1,5 +1,7 @@
 package com.revature.beans;
 
+import com.revature.service.Role;
+
 public class Employees {
 	   	private static int REPORTSO = 0;
 
@@ -18,6 +20,21 @@ public class Employees {
 		BIRTH_YEAR = bIRTH_YEAR;
 		PHONE_NUMBER = pHONE_NUMBER;
 	}
+
+		public Employees(int i, String string, String string2, String string3, Role role, String username,
+				String password) {
+			// TODO Auto-generated constructor stub
+		}
+
+		public Employees1(int i, String string, String string2, String string3, Role role, String username,
+				String password) {
+			// TODO Auto-generated constructor stub
+		}
+
+		public void Employees11(int i, String string, String string2, String string3, Role role, String username,
+				String password) {
+			// TODO Auto-generated constructor stub
+		}
 
 		int EMPLOYEE_ID;
 		String FIRSTNAME;

@@ -21,10 +21,10 @@ public class LogoutServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		response.setContentType("text/html");
 		PrintWriter pw = response.getWriter();
-		request.getRequestDispatcher("base.html").include(request, response);
+		((Object) request.getRequestDispatcher("index.html")).include(request, response);
 		HttpSession session = request.getSession(false);
 		if (session != null) {
-			session.invalidate();
+			((Object) session).invalidate();
 		}
 		pw.println("<p>You are successfully logged out</p>");
 		pw.println("</div>");
@@ -34,6 +34,10 @@ public class LogoutServlet extends HttpServlet {
 	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		doGet(request, response);
+	}
+
+	public static long getSerialversionuid() {
+		return serialVersionUID;
 	}
 
 
