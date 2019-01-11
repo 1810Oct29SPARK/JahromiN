@@ -11,6 +11,7 @@ import javax.servlet.http.HttpSession;
 
 import com.revature.beans.Credentials;
 import com.revature.beans.Employee;
+import com.revature.beans.Employees;
 import com.revature.service.AuthenticationService;
 
 @WebServlet("/EmployeeLogin")
@@ -34,12 +35,12 @@ public class ManagerLoginServlet extends HttpServlet {
 		System.out.println("handling request...");
 		
 		//checks whether a session exists, otherwise creates a new one
-		//overloaded version takes a boolean create param, if false it returns null if no session exists for the current request
-		HttpSession session = req.getSession();
+		//overloaded version takes a boolean create @param, if false it returns null if no session exists for the current request
+		HttpSession session = req.getSession(false);
 		resp.setContentType("text/html");
-		//grab params from request
+		//grab primes from request
 		Credentials cred = new Credentials(req.getParameter("EMAIL"), req.getParameter("PASSWORD"));
-		Employee u = (authService.isValidEmployee(cred));
+		Employees u = (authService.isValidEmployee(cred));
 		if (u != null) {
 			session.setAttribute("FIRSTNAME", u.getUserName());
 			session.setAttribute("LASTNAME", u.getFirstName());

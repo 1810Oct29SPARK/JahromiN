@@ -7,4 +7,9 @@ public class HttpSession {
 		return null;
 	}
 
+	public void setAttribute(String string, Object userName) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

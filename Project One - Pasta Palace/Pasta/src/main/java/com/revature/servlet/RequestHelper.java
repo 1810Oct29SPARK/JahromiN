@@ -1,5 +1,5 @@
 package com.revature.servlet;
 
-public class EmployeeLanding {
+public class RequestHelper {
 
 }

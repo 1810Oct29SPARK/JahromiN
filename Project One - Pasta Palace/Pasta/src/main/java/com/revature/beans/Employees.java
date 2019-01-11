@@ -21,7 +21,7 @@ public class Employees {
 		PHONE_NUMBER = pHONE_NUMBER;
 	}
 
-		public Employees(int i, String string, String string2, String string3, Role role, String username,
+		public Employees(int i, String string, String string2, String string3, com.revature.servlet.Role role, String username,
 				String password) {
 			// TODO Auto-generated constructor stub
 		}
@@ -143,5 +143,35 @@ public class Employees {
 					+ ", ADDRESS=" + ADDRESS + ", CITY=" + CITY + ", STATE=" + STATE + ", ZIPCODE=" + ZIPCODE
 					+ ", TITLE=" + TITLE + ", REPORTSTO=" + REPORTSTO + ", BIRTH_YEAR=" + BIRTH_YEAR + ", PHONE_NUMBER="
 					+ PHONE_NUMBER + "]";
+		}
+
+		public Object getUserName() {
+			// TODO Auto-generated method stub
+			return null;
+		}
+
+		public Object getFirstName() {
+			// TODO Auto-generated method stub
+			return null;
+		}
+
+		public Object getLastName() {
+			// TODO Auto-generated method stub
+			return null;
+		}
+
+		public Object getId() {
+			// TODO Auto-generated method stub
+			return null;
+		}
+
+		public Object getEmail() {
+			// TODO Auto-generated method stub
+			return null;
+		}
+
+		public Object getEmployeeId() {
+			// TODO Auto-generated method stub
+			return null;
 		}
 }

@@ -11,15 +11,13 @@ import javax.servlet.http.HttpSession;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.revature.beans.Employee;
+import com.revature.beans.Employees;
 import com.revature.beans.Role;
 
 @WebServlet("/session")
 public class SessionServlet extends HttpServlet {
 
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = 6035723100739982453L;
+	private int EMPLOYEE_ID;
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
@@ -31,7 +29,7 @@ public class SessionServlet extends HttpServlet {
 				String firstname = session.getAttribute("FIRSTNAME").toString();
 				String lastname = session.getAttribute("LASTNAME").toString();
 				String email = session.getAttribute("EMAIL").toString();
-				Employees e = new Employee(id, firstname, lastname, email, new Role(1, "Employee"), null, null);
+				Employees e = new Employees(EMPLOYEE_ID, firstname, lastname, email, new Role(), null, null);
 				response.getWriter().write(new ObjectMapper().writeValueAsString(e));
 
 			} catch (Exception e) {

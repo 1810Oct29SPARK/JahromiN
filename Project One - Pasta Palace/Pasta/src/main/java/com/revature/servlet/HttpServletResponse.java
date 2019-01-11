@@ -18,19 +18,9 @@ public class HttpServletResponse {
 		return null;
 	}
 
-	public PrintWriter getWriter() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
 	public void sendRedirect(String string) {
 		// TODO Auto-generated method stub
 		
-	}
-
-	public PrintWriter getWriter() {
-		// TODO Auto-generated method stub
-		return null;
 	}
 
 }

@@ -5,7 +5,7 @@ public @interface WebServlet {
 	String value();
 	
 	/*
-	 * pasta
+	 * WELCOME TO PASTA PALACE
 	 */
 
 }

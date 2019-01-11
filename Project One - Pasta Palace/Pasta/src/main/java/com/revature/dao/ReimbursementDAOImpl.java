@@ -120,7 +120,7 @@ public class ReimbursementDAOImpl implements ReimbursementDAO {
 		LocalDate today = LocalDate.now();
 		String date = today.toString();
 		try (Connection con = ConnectionUtil.getConnection(filename)) {
-			String sql = "INSERT INTO REIMBURSEMENTS(EMPLOYEEID, TYPE, DESCRIPTION, IMAGE, AMOUNT, DATESUBMITTED) VALUES (?, ?, ?, ?, ?, ?)";
+			String sql = "INSERT INTO PASTA_REIMBURSEMENTS(EMPLOYEE_ID, TYPE, DESCRIPTION, IMAGE, AMOUNT, DATESUBMITTED) VALUES (?, ?, ?, ?, ?, ?)";
 			PreparedStatement stmt = con.prepareStatement(sql);
 			stmt.setInt(1, employeeId);
 			stmt.setString(2, type);
