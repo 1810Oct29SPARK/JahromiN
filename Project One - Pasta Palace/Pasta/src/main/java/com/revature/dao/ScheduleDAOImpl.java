@@ -34,7 +34,7 @@ public class ScheduleDAOImpl implements EmployeesDAO {
 			    String FRIDAY = ers.getString("FRIDAY");
 			    String SATURDAY = ers.getString("SATURDAY");
 			    String SUNDAY = ers.getString("SUNDAY");
-			    el.add((Employees) new ScheduleDAO(MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY));
+			    el.add((ScheduleDao) new ScheduleDAO(MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY));
 			   
 			}
 			

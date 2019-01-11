@@ -26,11 +26,6 @@ public class Employees {
 			// TODO Auto-generated constructor stub
 		}
 
-		public Employees1(int i, String string, String string2, String string3, Role role, String username,
-				String password) {
-			// TODO Auto-generated constructor stub
-		}
-
 		public void Employees11(int i, String string, String string2, String string3, Role role, String username,
 				String password) {
 			// TODO Auto-generated constructor stub

@@ -3,6 +3,7 @@ package com.revature.servlet;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -21,10 +22,10 @@ public class LogoutServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		response.setContentType("text/html");
 		PrintWriter pw = response.getWriter();
-		((Object) request.getRequestDispatcher("index.html")).include(request, response);
+		((RequestDispatcher) request.getRequestDispatcher("index.html")).include(request, response);
 		HttpSession session = request.getSession(false);
 		if (session != null) {
-			((Object) session).invalidate();
+			((HttpSession) session).invalidate();
 		}
 		pw.println("<p>You are successfully logged out</p>");
 		pw.println("</div>");

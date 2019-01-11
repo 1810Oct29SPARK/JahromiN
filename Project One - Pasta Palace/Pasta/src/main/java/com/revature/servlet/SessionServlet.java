@@ -17,6 +17,10 @@ import com.revature.beans.Role;
 @WebServlet("/session")
 public class SessionServlet extends HttpServlet {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 4587405330296016667L;
 	private int EMPLOYEE_ID;
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)

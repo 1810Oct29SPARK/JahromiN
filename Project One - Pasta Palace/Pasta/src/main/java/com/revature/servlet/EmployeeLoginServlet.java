@@ -26,7 +26,7 @@ public class EmployeeLoginServlet extends HttpServlet {
 
 	//return login page for get request
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		req.getRequestDispatcher("EmployeeLogin.html"),("ManagerLogin.html").forward(req, resp);
+		req.getRequestDispatcher("EmployeeLogin.html").forward(req, resp);
 	}
 	
 	//handle POST request from form on login page
